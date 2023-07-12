@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js"></script>
+  <link href="https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Academinyaa</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid" id="nav--title">
+      <a class="navbar-brand padding--left" href="#">Academinyaa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex flex-row-reverse bg-dark padding--rigth" id="navbarNavAltMarkup">
+        <div class="navbar-nav p-2 bg-dark" id="nav--topics">
+          <a class="nav-link" aria-current="page" href="#">Learning Journey</a>
+          <a class="nav-link" href="#">Nyaa?</a>
+          <a class="nav-link" href="#">Instructors</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header class="container">
+
+  </header>
+
+  <!-- Showcase -->
+  <section class="color--white d-flex">
+    <div class="d-flex bd-highlight bg-dark padding--left">
+      <div class="p-2 flex-fill bd-highlight">
+        <div class="d-flex justify-content-center align-items-start flex-column" style="height: 50vh;">
+          <h1>Become a <span> Cat </span></h1>
+          <p>
+            Nap all day cat dog hate mouse eat string barf pillow no baths
+            hate everything but kitty poochy. Sleep on keyboard toy mouse
+            squeak roll over.
+          </p>
+          <button data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-primary">
+            Start The Enrollment
+          </button>
+        </div>
+      </div>        
+      <div class="p-2 flex-fill bd-highlight">
+        <img src="img/sushi.png" class="img-fluid padding--rigth" alt="" />
+      </div>
+    </div>       
+  </section>
+
+  <!-- Newsletter -->
+  <section class="bg-warning pb-4 pt-4">
+    <div class="navbar navbar-light padding--left">
+      <div class="container-fluid">
+        <a class="navbar-brand color--white">Sign Up For Our Mewsletter</a>
+        <form class="d-flex padding--rigth">
+          <input class="form-control me-2" type="search" placeholder="Enter Email" aria-label="Search">
+          <button class="btn btn btn-dark" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learn Sections -->
+  <section id="learn" >
+    <div class="d-flex bd-highlight p-2">
+      <div class="p-5 flex-fill bd-highlight">
+        <img src="img/cat.png" class="img-fluid padding--left" alt="Cat">
+      </div>
+      <div class="p-2 flex-fill bd-highlight p-5 padding--rigth">
+        <h2>Sleep 18 Hours</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Similique deleniti possimus magnam corporis ratione facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            reiciendis eius autem eveniet mollitia, at asperiores suscipit
+            quae similique laboriosam iste minus placeat odit velit quos,
+            nulla architecto amet voluptates?
+          </p>
+      </div>         
+    </div>    
+  </section>
+
+  <!-- Meow-->
+
+  <section id="learn" class="container-fluid bg-dark color--white">
+    <div class=" d-flex bd-highlight">
+      <div class="order-2 p-2 flex-fill bd-highlight">
+        <img src="img/fish.png" class="img-fluid padding--rigth" alt="Cat-fish">
+      </div>
+      <div class="order-1 p-2 flex-fill bd-highlight">
+        <div class="padding--left d-flex justify-content-center align-items-start flex-column" style="height: 50vh;">
+          <h2>Meow All Night</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Similique deleniti possimus magnam corporis ratione facere!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            reiciendis eius autem eveniet mollitia, at asperiores suscipit
+            quae similique laboriosam iste minus placeat odit velit quos,
+            nulla architecto amet voluptates?
+          </p>
+          <a href="#" class="badge text-wrap">
+            <i></i> Read More
+          </a>
+        </div>
+      </div>      
+    </div>   
+  </section>
+
+
+  <!-- Question Accordion -->
+  <section id="questions" class="container p-5">
+    <h2>Frequently Asked Questions</h2>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Where exactly are you located?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Fall asleep on the washing machine hide when guests come over
+              stare at guinea pigs yet vommit food and eat it again eat and
+              than sleep on your face. Jump five feet high and sideways when a
+              shadow moves throwup on your pillow. Missing until dinner time.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            What are the activities?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Scream at teh bath. My left donut is missing, as is my right the
+              dog smells bad and loves cheeseburgers, refuse to drink water
+              except out of someone’s glass. Flee in terror at cucumber
+              discovered on floor sleep nap or gnaw the corn cob give me
+              attention or face the wrath of my claws
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            What do I need to Know?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Be fabulous for the rest of the day – checked so poop on
+              grasses, but refuse to leave cardboard box and small kitty warm
+              kitty little balls of fur so walk on car leaving trail of paw
+              prints on hood and windshield eat the fat cats food.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Instructors -->
+
+  <section id="instructors" class="bg-warning">
+    <h2 class="color--white text-center">Our Instructors</h2>
+    <p class="color--white text-center pb-5">
+      Our instructors all have 5+ years pooping on grasses while licking
+      paws
+    </p>
+    <div class="row row-cols-1 row-cols-md-4 g-4 border-0">
+      <div class="col">
+        <div class="card h-100 border-0">
+          <img src="./img/kitty-1.png" class="card-img-top rounded-circle mx-auto d-block" alt="Cat 1" id="instructions--img">
+          <div class="card-body">
+            <h5 class="card-title text-center">Tuna</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda accusamus nobis sed cupiditate iusto? Quibusdam..</p>
+          </div>
+          <div class="card-footer d-inline-flex p-2 bd-highlight d-flex justify-content-evenly border-0 ps-5 pe-5" style="background-color: white;">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i><i class="fa-brands fa-instagram"></i></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/kitty-2.png" class="card-img-top rounded-circle mx-auto d-block" alt="cat 2" id="instructions--img">
+          <div class="card-body">
+            <h5 class="card-title text-center">Koshka</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda accusamus nobis sed cupiditate iusto? Quibusdam..</p>
+          </div>
+          <div class="card-footer d-inline-flex p-2 bd-highlight d-flex justify-content-evenly border-0 ps-5 pe-5" style="background-color: white;">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i><i class="fa-brands fa-instagram"></i></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/kitty-3.png" class="card-img-top rounded-circle mx-auto d-block" alt="ct 3" id="instructions--img">
+          <div class="card-body">
+            <h5 class="card-title text-center">Meo</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda accusamus nobis sed cupiditate iusto? Quibusdam..</p>
+          </div>
+          <div class="card-footer d-inline-flex p-2 bd-highlight d-flex justify-content-evenly border-0 ps-5 pe-5" style="background-color: white;">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i><i class="fa-brands fa-instagram"></i></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/kitty-4.png" class="card-img-top rounded-circle mx-auto d-block" alt="cat 4" id="instructions--img">
+          <div class="card-body">
+            <h5 class="card-title">Ziggy</h5>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda accusamus nobis sed cupiditate iusto? Quibusdam..</p>
+          </div>
+          <div class="card-footer d-inline-flex p-2 bd-highlight d-flex justify-content-evenly border-0 ps-5 pe-5" style="background-color: white;">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i><i class="fa-brands fa-instagram"></i></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Map -->
+  <section class="container">
+    <div class="container-fluid p-5">
+      <div class="row">
+        <div class="col">
+          <div>
+            <h2>Contact Info</h2>
+            <ul>
+              <li>
+                <span>Main Location:</span> Danboru
+              </li>
+              <li>
+                <span>Enrollment Phone:</span> (555) 555-5555
+              </li>
+              <li>
+                <span>Student Phone:</span> (333) 333-3333
+              </li>
+              <li>
+                <span>Enrollment Email:</span>
+                purr@rubmybelly.gg
+              </li>
+              <li>
+                <span>Student Email:</span>
+                i.dare.you2@rubmybelly.gg
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark color--white text-center m-0 p-4">
+    <div>
+      <p class="m-0">Copyright &copy; 2021 Academinyaa</p>
+
+      <a href="#">
+        <i></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                First Name:
+              </label>
+              <input type="text" class="form-control" id="first-name" />
+            </div>
+            <div class="mb-3">
+              <label for="last-name" class="col-form-label">Last Name:</label>
+              <input type="text" class="form-control" id="last-name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="col-form-label">Phone:</label>
+              <input type="tel" class="form-control" id="phone" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    L.mapbox.accessToken =
+      'pk.eyJ1IjoiYW5kYXNhbiIsImEiOiJjazQzajNjMWswOGliM210NnUwaDI2bWYwIn0.rKu9TXEWdCYYlHHqZ6YMKQ'
+    var map = L.mapbox
+      .map('map')
+      .setView([33.7362, 132.4818], 14)
+      .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'))
+  </script>
+</body>
+
+</html>
